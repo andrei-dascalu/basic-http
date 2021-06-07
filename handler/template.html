@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>Welcome to the forest</title>
+  </head>
+  <body>
+    <p>
+        {{if .Name }}
+            It's nice to know that your favorite tree is a <strong>{{.Name}}</strong>
+        {{else}}
+            Please tell me your favorite tree
+        {{end}}
+    </p>
+  </body>
+</html>
